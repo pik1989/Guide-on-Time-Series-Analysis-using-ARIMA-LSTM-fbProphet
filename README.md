@@ -103,10 +103,15 @@ This is a simple use case where I have tried 3 different models for the same dat
 Below are the results:
 
 ARIMA: 
+
 Test MSE: 94.076
+
 LSTM: 
+
 Test RMSE: 98.289
+
 PROPHET: 
+
 Test MSE: 49.039
 
 Based on the MSE values, we can conclude that fbProphet has given us better results.
