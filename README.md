@@ -49,7 +49,7 @@ Rolling Statistics: Visual technique
 
 Augmented Dickey Fuller Test: Here the null hypothesis is that the TS is non-stationary.If ‘Test Statistics’ < ‘Critical Value’, then we can reject the hypothesis & conclude that TS is stationary.
 
-*ARIMA:*
+**ARIMA:**
 
 Auto Regression: Auto Regressive lags, If there’s a correlation between t & t-5, then that’s an autoregressive model
 If p is 5, then predictors of x(t) = x(t-1)….x(t-5)
@@ -66,7 +66,7 @@ ACF: Auto Correlation function, it’s the measure of correlation between TS and
 PACF: Partial Auto Correlation function, it’s the correlation of TS with a lagged value of itself but after removing variation.
 
 
-*LSTM (Long Short Term Memory)*
+**LSTM (Long Short Term Memory)**
 
 Recurrent Neural Network:
 
@@ -86,7 +86,7 @@ Sequence to Sequence – I/P(Sequence)  O/P(Sequence)
 ![Test Image 7](https://github.com/pik1989/Time-Series-Forecasting-using-LSTM-ARIMA-fbProphet/blob/master/Images/LSTM.png)
 
 
-*PROPHET: *
+**PROPHET: **
 
 When fbProphet shines?
 
