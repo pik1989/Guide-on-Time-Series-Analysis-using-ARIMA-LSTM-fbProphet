@@ -1,7 +1,7 @@
 # Time-Series-Forecasting-using-LSTM-ARIMA-fbProphet
 A small guide on Time Series.
 
-What is TS Analysis?
+**What is TS Analysis?**
 
 Time Series: 
 Set of observations taken at a specified time usually at equal intervals. 
