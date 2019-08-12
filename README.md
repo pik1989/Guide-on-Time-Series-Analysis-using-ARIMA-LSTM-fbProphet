@@ -19,3 +19,10 @@ Cyclic
 
 ![Test Image 7](https://github.com/pik1989/Time-Series-Forecasting-using-LSTM-ARIMA-fbProphet/blob/master/Images/Component-of-Time-Series-Data.jpg)
 
+When not to use TS Analysis?
+
+1. If the values are constant
+2. If the values are in form of a function
+
+![Test Image 7](https://github.com/pik1989/Time-Series-Forecasting-using-LSTM-ARIMA-fbProphet/blob/master/Images/pic1.jpg)
+![Test Image 7](https://github.com/pik1989/Time-Series-Forecasting-using-LSTM-ARIMA-fbProphet/blob/master/Images/pic2.gif)
