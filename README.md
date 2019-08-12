@@ -10,7 +10,7 @@ It is used to predict future values based on previous observed values.
 Considering a graph, when x is time & if the dependent variable depends on time parameter then it’s time series analysis.
 
 
-Components of TS Analysis:
+**Components of TS Analysis:**
 
 Trend
 Seasonality
@@ -19,7 +19,7 @@ Cyclic
 
 ![Test Image 7](https://github.com/pik1989/Time-Series-Forecasting-using-LSTM-ARIMA-fbProphet/blob/master/Images/Component-of-Time-Series-Data.jpg)
 
-When not to use TS Analysis?
+**When not to use TS Analysis?**
 
 1. If the values are constant
 2. If the values are in form of a function
@@ -27,7 +27,7 @@ When not to use TS Analysis?
 ![Test Image 7](https://github.com/pik1989/Time-Series-Forecasting-using-LSTM-ARIMA-fbProphet/blob/master/Images/pic1.jpg)
 ![Test Image 7](https://github.com/pik1989/Time-Series-Forecasting-using-LSTM-ARIMA-fbProphet/blob/master/Images/pic2.gif)
 
-Stationarity?
+**Stationarity?**
 
 TS data can be stationary by removing:
 
@@ -40,13 +40,13 @@ How?
 2. Constant variance - Distance from mean
 3. Auto covariance that does not depend on time
 
-How to test stationarity?
+**How to test stationarity?**
 
 Rolling Statistics: Visual technique
 
 Augmented Dickey Fuller Test: Here the null hypothesis is that the TS is non-stationary.If ‘Test Statistics’ < ‘Critical Value’, then we can reject the hypothesis & conclude that TS is stationary.
 
-ARIMA:
+*ARIMA:*
 
 Auto Regression: Auto Regressive lags, If there’s a correlation between t & t-5, then that’s an autoregressive model
 If p is 5, then predictors of x(t) = x(t-1)….x(t-5)
@@ -63,7 +63,7 @@ ACF: Auto Correlation function, it’s the measure of correlation between TS and
 PACF: Partial Auto Correlation function, it’s the correlation of TS with a lagged value of itself but after removing variation.
 
 
-LSTM (Long Short Term Memory)
+*LSTM (Long Short Term Memory)*
 
 Recurrent Neural Network:
 
@@ -83,7 +83,7 @@ Sequence to Sequence – I/P(Sequence)  O/P(Sequence)
 ![Test Image 7](https://github.com/pik1989/Time-Series-Forecasting-using-LSTM-ARIMA-fbProphet/blob/master/Images/LSTM.png)
 
 
-PROPHET: 
+*PROPHET: *
 
 When fbProphet shines?
 
@@ -93,7 +93,7 @@ When fbProphet shines?
 4. Reasonable number of missing observations
 
 
-USE CASE:
+**USE CASE:**
 
 This is a simple use case where I have tried 3 different models for the same dataset and have calculated the RMSE values for each of the models.
 
