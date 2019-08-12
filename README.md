@@ -13,8 +13,11 @@ Considering a graph, when x is time & if the dependent variable depends on time 
 **Components of TS Analysis:**
 
 Trend
+
 Seasonality
+
 Irregularity
+
 Cyclic
 
 ![Test Image 7](https://github.com/pik1989/Time-Series-Forecasting-using-LSTM-ARIMA-fbProphet/blob/master/Images/Component-of-Time-Series-Data.jpg)
