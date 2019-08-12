@@ -61,3 +61,24 @@ e(i) is the difference between moving average of ith instance & actual value
 
 ACF: Auto Correlation function, it’s the measure of correlation between TS and the lagged value of itself.
 PACF: Partial Auto Correlation function, it’s the correlation of TS with a lagged value of itself but after removing variation.
+
+
+LSTM (Long Short Term Memory)
+
+Recurrent Neural Network:
+
+Vector to Sequence – I/P (Image)  Describes an image
+	Example: Image Captioning
+Sequence to Vector – I/P(Product Reviews)  O/P is in form of a vector [0.9 0.1] of positive: negative
+	Example: Sentiment Analysis
+Sequence to Sequence – I/P(Sequence)  O/P(Sequence)
+	It’s based on Encoder-Decoder Architecture
+	Example: Translation
+  
+1. TS data is actually sequences.
+2. When dealing with weather data  Precipitation, Rain, Temperature etc.
+3. Where some of the features can be relevant for forecasting, weather entirely is treated as a vector & is i/p to the neural network.
+4. TS can be modelled as a sequence to sequence problem
+
+![Test Image 7](https://github.com/pik1989/Time-Series-Forecasting-using-LSTM-ARIMA-fbProphet/blob/master/Images/LSTM.png)
+
