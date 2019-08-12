@@ -82,3 +82,33 @@ Sequence to Sequence – I/P(Sequence)  O/P(Sequence)
 
 ![Test Image 7](https://github.com/pik1989/Time-Series-Forecasting-using-LSTM-ARIMA-fbProphet/blob/master/Images/LSTM.png)
 
+
+PROPHET: 
+
+When fbProphet shines?
+
+1. Hourly, Weekly, Daily observations with at least a few months of history.
+2. Strong multiple “human-scale” seasonality's
+3. Holidays that occur at irregular intervals
+4. Reasonable number of missing observations
+
+
+USE CASE:
+
+This is a simple use case where I have tried 3 different models for the same dataset and have calculated the RMSE values for each of the models.
+
+Below are the results:
+
+ARIMA: 
+Test MSE: 94.076
+LSTM: 
+Test RMSE: 98.289
+PROPHET: 
+Test MSE: 49.039
+
+Based on the MSE values, we can conclude that fbProphet has given us better results.
+But given that we have more data, with proper fine tuning, LSTM & ARIMA can even perform better.
+
+Go through various features of Prophet here : https://facebook.github.io/prophet/docs/quick_start.html
+
+For further doubts/queries, reach out to me at: https://www.linkedin.com/in/satyajit-pattnaik-b41392102/
