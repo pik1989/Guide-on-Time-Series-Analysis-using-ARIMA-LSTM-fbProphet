@@ -26,3 +26,38 @@ When not to use TS Analysis?
 
 ![Test Image 7](https://github.com/pik1989/Time-Series-Forecasting-using-LSTM-ARIMA-fbProphet/blob/master/Images/pic1.jpg)
 ![Test Image 7](https://github.com/pik1989/Time-Series-Forecasting-using-LSTM-ARIMA-fbProphet/blob/master/Images/pic2.gif)
+
+Stationarity?
+
+TS data can be stationary by removing:
+
+1. Trend - Varying over time
+2. Seasonality - Variations at specific time
+
+How?
+
+1. Constant mean - Average
+2. Constant variance - Distance from mean
+3. Auto covariance that does not depend on time
+
+How to test stationarity?
+
+Rolling Statistics: Visual technique
+
+Augmented Dickey Fuller Test: Here the null hypothesis is that the TS is non-stationary.If ‘Test Statistics’ < ‘Critical Value’, then we can reject the hypothesis & conclude that TS is stationary.
+
+ARIMA:
+
+Auto Regression: Auto Regressive lags, If there’s a correlation between t & t-5, then that’s an autoregressive model
+If p is 5, then predictors of x(t) = x(t-1)….x(t-5)
+
+![Test Image 7](https://github.com/pik1989/Time-Series-Forecasting-using-LSTM-ARIMA-fbProphet/blob/master/Images/ACF_PACF.png)
+
+
+
+Moving Average: Lagged forecast errors in prediction.
+If q is 2, predictors of x(t) will be e(t-1)..e(t-2)
+e(i) is the difference between moving average of ith instance & actual value
+
+ACF: Auto Correlation function, it’s the measure of correlation between TS and the lagged value of itself.
+PACF: Partial Auto Correlation function, it’s the correlation of TS with a lagged value of itself but after removing variation.
