@@ -86,7 +86,7 @@ Sequence to Sequence – I/P(Sequence)  O/P(Sequence)
 ![Test Image 7](https://github.com/pik1989/Time-Series-Forecasting-using-LSTM-ARIMA-fbProphet/blob/master/Images/LSTM.png)
 
 
-**PROPHET: **
+**PROPHET:**
 
 When fbProphet shines?
 
