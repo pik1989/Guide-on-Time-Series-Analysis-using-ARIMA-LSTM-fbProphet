@@ -114,6 +114,20 @@ PROPHET:
 
 Test MSE: 49.039
 
+Below are the actual vs predicted graph from various models:
+
+**ARIMA**
+
+![Test Image 7](https://github.com/pik1989/Time-Series-Forecasting-using-LSTM-ARIMA-fbProphet/blob/master/Images/ARIMA_Output.png)
+
+**LSTM**
+
+![Test Image 7](https://github.com/pik1989/Time-Series-Forecasting-using-LSTM-ARIMA-fbProphet/blob/master/Images/LSTM_Output.png)
+
+**PROPHET**
+
+![Test Image 7](https://github.com/pik1989/Time-Series-Forecasting-using-LSTM-ARIMA-fbProphet/blob/master/Images/Prophet_Output.png)
+
 Based on the MSE values, we can conclude that fbProphet has given us better results.
 But given that we have more data, with proper fine tuning, LSTM & ARIMA can even perform better.
 
