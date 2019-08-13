@@ -1,7 +1,7 @@
 # Time-Series-Forecasting-using-LSTM-ARIMA-fbProphet
 A small guide on Time Series.
 
-**What is TS Analysis?**
+**WHAT IS TS ANALAYSIS?**
 
 Time Series: 
 Set of observations taken at a specified time usually at equal intervals. 
@@ -10,7 +10,7 @@ It is used to predict future values based on previous observed values.
 Considering a graph, when x is time & if the dependent variable depends on time parameter then it’s time series analysis.
 
 
-**Components of TS Analysis:**
+**COMPONENTS OF TS ANALYSIS:**
 
 Trend
 
@@ -22,7 +22,7 @@ Cyclic
 
 ![Test Image 7](https://github.com/pik1989/Time-Series-Forecasting-using-LSTM-ARIMA-fbProphet/blob/master/Images/Component-of-Time-Series-Data.jpg)
 
-**When not to use TS Analysis?**
+**WHEN NOT TO USE TS ANALYSIS?**
 
 1. If the values are constant
 
@@ -32,7 +32,7 @@ Cyclic
 
 ![Test Image 7](https://github.com/pik1989/Time-Series-Forecasting-using-LSTM-ARIMA-fbProphet/blob/master/Images/pic2.gif)
 
-**Stationarity?**
+**STATIONARITY?**
 
 TS data can be stationary by removing:
 
@@ -45,7 +45,7 @@ How?
 2. Constant variance - Distance from mean
 3. Auto covariance that does not depend on time
 
-**How to test stationarity?**
+**HOW TO TEST STATIONARITY?**
 
 Rolling Statistics: Visual technique
 
