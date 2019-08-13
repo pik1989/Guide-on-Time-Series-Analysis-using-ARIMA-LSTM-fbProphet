@@ -1,4 +1,4 @@
-# Time-Series-Forecasting-using-LSTM-ARIMA-fbProphet
+# Guide on Time Series Forecasting-using-LSTM-ARIMA-fbProphet
 A small guide on Time Series.
 
 **WHAT IS TS ANALAYSIS?**
