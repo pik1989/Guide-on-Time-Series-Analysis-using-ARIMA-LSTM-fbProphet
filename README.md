@@ -25,9 +25,11 @@ Cyclic
 **When not to use TS Analysis?**
 
 1. If the values are constant
-2. If the values are in form of a function
 
 ![Test Image 7](https://github.com/pik1989/Time-Series-Forecasting-using-LSTM-ARIMA-fbProphet/blob/master/Images/pic1.jpg)
+
+2. If the values are in form of a function
+
 ![Test Image 7](https://github.com/pik1989/Time-Series-Forecasting-using-LSTM-ARIMA-fbProphet/blob/master/Images/pic2.gif)
 
 **Stationarity?**
@@ -55,7 +57,6 @@ Auto Regression: Auto Regressive lags, If there’s a correlation between t & t-
 If p is 5, then predictors of x(t) = x(t-1)….x(t-5)
 
 ![Test Image 7](https://github.com/pik1989/Time-Series-Forecasting-using-LSTM-ARIMA-fbProphet/blob/master/Images/ACF_PACF.png)
-
 
 
 Moving Average: Lagged forecast errors in prediction.
